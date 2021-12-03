@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_live"
         android:name="com.sosaley.streetlight.home.view.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_live"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_dataentry"
         android:name="com.sosaley.streetlight.home.view.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_dataentry"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
