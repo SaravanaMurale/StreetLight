@@ -44,7 +44,7 @@ public class HomeFragment extends Fragment {
             }
         });*/
 
-        Toast.makeText(getActivity(),"Toast.LENGTH_LONG",Toast.LENGTH_LONG).show();
+
 
         fragmentHomeBinding.mapImageView.setOnClickListener(new View.OnClickListener() {
             @Override
