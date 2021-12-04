@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+<layout>
+
+    <data>
+
+        <variable
+            name="home"
+            type="com.sosaley.streetlight.home.modelview.HomeViewModel" />
+    </data>
+
+
+
+
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -294,11 +309,16 @@
     </LinearLayout>
 
 
-    <fragment
+    <ImageView
+        android:id="@+id/mapImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/fourthRow"
-        android:layout_margin="5dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/map"
+        android:fitsSystemWindows="true"
         />
 
 </RelativeLayout>
+
+</layout>
