@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.sosaley.streetlight"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -78,6 +78,11 @@ dependencies {
 
     //Fused Location Pro services and Location
     implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    def latest_version = "0.3.0"
+    implementation "com.github.fornewid:neumorphism:$latest_version"
+
+
 
 
 
